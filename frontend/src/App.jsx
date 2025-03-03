@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import React from 'react';
+import Navbar from "./components/Navbar"
+import Home from './pages/Home';
+import { Slider } from './components/Slider';
 
 function App() {
+  
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Navbar />
+      {/* <Slider /> */}
+      <Home />
     </>
   )
 }
