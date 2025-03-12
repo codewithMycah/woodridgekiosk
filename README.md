@@ -1,6 +1,4 @@
 # woodridgekiosk
-
-# Web App using Flask, Python, and ReactJS
 [Flask](https://flask.palletsprojects.com/en/stable/)<br />
 [ReactJS](https://react.dev/)
 ## How to run the program
