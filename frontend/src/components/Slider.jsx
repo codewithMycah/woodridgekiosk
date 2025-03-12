@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
 const imgs = [
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
-  "../assets/images/Blue Line Bar & Grill.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
+  "../assets/bg_woodridge.jpg",
 ];
 
 const ONE_SECOND = 1000;

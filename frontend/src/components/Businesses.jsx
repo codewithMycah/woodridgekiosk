@@ -29,11 +29,11 @@ export default function Businesses() {
         
         <div className='flex flex-col p-6 mx-auto'>
             <Searchbar />
-            <h1>Business Directory</h1>
+            {/* <h1>Business Directory</h1> */}
             {businesses.length === 0 ? (
                 <p>Loading businesses...</p>
             ) : (
-            <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-6 gap-8 w-full'> 
+            <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-6 gap-8 w-full mt-4'> 
                 {businesses && businesses.map((business) => (
                     <li key={business._id} className='p-4 border border-gray-400 rounded-xl'>
                         <div className='h-60 w-full'>
@@ -44,9 +44,10 @@ export default function Businesses() {
                             )}
                         </div>
                         <div className='p-2 space-y-2'>
-                            <h3 className='font-semibold text-xl'>{business.business_name}</h3>
+                            <h3 className='font-semibold text-xl text-emerald-800'>{business.business_name}</h3>
                             <div className='flex gap-2'><MapPin /><p>{business.address}</p></div>
                             <div className='flex gap-2'><Phone /><p>{business.contact_number}</p></div>
+
                             {business.website_url !== 'none' && (
                                 <div className='flex gap-2'>
                                     <Link />{business.website_url}
